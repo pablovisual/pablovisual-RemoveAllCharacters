@@ -14,7 +14,7 @@ public class RemoveAllCharacter {
   public String removeAll(String str, String ch) {
     return str.replaceAll(ch, "");
 
-    ///using a loop
+    //using a loop
         /*String str2 = "";
         for (int index = 0; index < str.length(); index++) {
             if(str.charAt(index) == ch.charAt(0)) {
